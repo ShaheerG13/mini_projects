@@ -5,6 +5,7 @@ from winotify import Notification
 mins = 20
 secs = mins * 60
 
+# notificaiton pop-up
 toast = Notification(
   app_id="Reminder",
   title="Eye Break!",
